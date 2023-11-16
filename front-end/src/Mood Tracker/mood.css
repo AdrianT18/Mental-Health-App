@@ -1,0 +1,17 @@
+.moodtracker-emoji{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.Text1{
+    margin-bottom: 200px;
+}
+
+.MoodTracker{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+

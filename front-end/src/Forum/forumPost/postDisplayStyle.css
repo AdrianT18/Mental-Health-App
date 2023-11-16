@@ -1,0 +1,241 @@
+.forumWrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /*justify-content: center; I changed this so posts look better on smaller screens, change back if broken*/
+    height: 100%;
+}
+
+.forumPost {
+    margin-top: 2%;
+    /* Post no longer covers header on smaller screens */
+    width: 65%;
+    text-align: left;
+    background-color: #f5f5f5;
+    padding: 1em;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.75);
+    position: relative;
+}
+
+.forumPost h1 {
+    font-size: 2em;
+    margin-bottom: 0.5em;
+    text-align: center;
+}
+
+.forumPost .divider {
+    border-top: 3px solid #ccc;
+    margin: 2em 0;
+}
+
+.forumPost pre {
+    font-size: 1.2em;
+    margin-bottom: 1em;
+    font-family: Arial, Helvetica, sans-serif;
+    white-space: pre-wrap;
+    /* overflows text to the next row if it leaves parent div whilst also maintaining line breaks */
+    word-wrap: break-word;
+    /* handles singular words being broken into multiple lines rather than leaving div */
+}
+
+.postMetaData {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    flex-direction: row-reverse;
+    /* without this property the h4 elements end up on the opposite sides than I wanted??? */
+}
+
+.forumPost .forumPostDate {
+    color: gray;
+    text-align: right;
+}
+
+.forumPost .forumPosterName {
+    color: gray;
+    text-align: left;
+}
+
+.forumReturnButton {
+    margin-top: 1vh;
+    font-size: 18px;
+    width: 8em;
+    background-color: #ff6961;
+    border: none;
+    color: white;
+    padding: 12px 20px;
+    cursor: pointer;
+    border-radius: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    position: absolute;
+    top: 0;
+    left: 5px;
+}
+
+.forumReturnButton:hover {
+    background-color: #ed423b;
+    transform: translateY(-1px);
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+}
+
+.forumReturnButton:active {
+    background-color: #df2c25;
+    transform: translateY(3px);
+    box-shadow: none;
+}
+
+.forumDeleteButton {
+    font-size: 18px;
+    width: 8em;
+    background-color: #ff6961;
+    border: none;
+    color: white;
+    padding: 12px 20px;
+    cursor: pointer;
+    border-radius: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+    position: absolute;
+    margin-top: 1vh;
+    top: 0;
+    right: 5px
+}
+
+.forumDeleteButton:hover {
+    background-color: #ed423b;
+    transform: translateY(-1px);
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+}
+
+.forumDeleteButton:active {
+    background-color: #df2c25;
+    transform: translateY(3px);
+    box-shadow: none;
+}
+
+.forumPageText {
+    margin-top: 1.1vh;
+}
+
+.forumDeletePopup {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.forumDeletePopupContent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    padding: 1rem;
+    border-radius: 5px;
+}
+
+.forumDeletePopupButtons {
+    padding-top: 30px;
+}
+
+.forumDeletePopupButtons button {
+    border-radius: 5px;
+    border: none;
+    padding: 10px 20px;
+    margin: 0 10px;
+}
+
+.forumDeletePopupButton1 {
+    background-color: #df2c25;
+    transition-duration: 150ms;
+}
+
+.forumDeletePopupButton1:hover {
+    background-color: #b9332e;
+    transition-duration: 150ms;
+}
+
+.forumDeletePopupButton2 {
+    background-color: rgb(13, 198, 180);
+    transition-duration: 150ms;
+}
+
+.forumDeletePopupButton2:hover {
+    background-color: rgb(17, 173, 158);
+    transition-duration: 150ms;
+}
+
+.forumReplyPost {
+    margin-top: 50px;
+}
+
+.forumReplyPost textarea {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 98%;
+    padding: 10px;
+    padding-bottom: 30px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    resize: none;
+}
+
+.forumReplyPost button {
+    border-radius: 5px;
+    border: none;
+    padding: 10px 20px;
+    background-color: rgb(13, 198, 180);
+    transition-duration: 150ms;
+}
+
+.forumReplyPost button:hover {
+    background-color: rgb(17, 173, 158);
+    transition-duration: 150ms;
+}
+
+.forumReplies {
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 1rem;
+    margin: 50px 0;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.75);
+    background-color: #f5f5f5;
+}
+
+.forumReply {
+    width: 100%;
+    border: 1px solid #d8d8d8;
+    padding: 1rem;
+}
+
+.forumReplyMetadata {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.forumReplyName,
+.forumReplyDate {
+    font-size: 14px;
+    color: #9b9b9b;
+}
+
+.forumReplyError {
+    color: red;
+    text-align: right;
+}
+
+.forumReplyLabel {
+    display: flex;
+    text-align: center;
+    margin-bottom: 10px;
+    font-weight: bold;
+    justify-content: space-between;
+    font-size: large;
+}

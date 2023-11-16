@@ -1,0 +1,22 @@
+[
+       {
+            "conditions":"Allergiess",
+            "causes and symptoms":"Sneezing, A Runny Or Blocked Nose, Red, Itchy , Watery Eyes, Wheezing And Coughing, A Red And Itchy Rash",
+            "description":"Allergies Occur When The Body's Immune System Reacts To A Particular Substance As Though It's Harmful."
+        },
+        {
+            "conditions":"Anxiety",
+            "causes and symptoms":"Restlessness, A Sense Of Dread, Feeling Constantly On Edge, Difficulty Concentrating, Irritability",
+            "description":"If You Are Anxious As A Result Of A Specific Phobia Or Because Of Panic Disorder, You Will Usually Know What The Cause Is. For Example, If You Have Claustrophobia (A Fear Of Enclosed Spaces), You Know That Being Confined In A Small Space Will Trigger Your Anxiety."
+        },
+        {
+            "conditions":"Asthma",
+            "causes and symptoms":"Shortness Of Breath, Wheezing (A Whistling Sound When You Breathe), Feeling Constantly On Edge, A Tight Chest – Which May Feel Like A Band Is Tightening Around It, Coughing",
+            "description":"The Small Tubes (Bronchi) That Carry Air In And Out Of The Lungs Become Inflamed And More Sensitive Than Normal. This Means That When You Come Into Contact With Something That Irritates Your Lungs (A Trigger), Your Airways Become Narrow, The Muscles Around Them Tighten, And There Is An Increase In The Production Of Sticky Mucus (Phlegm)."
+        },
+        {
+            "conditions":"Brain Tumor",
+            "causes and symptoms":"Severe, Persistent Headaches, Seizures (Fits), Persistent Nausea, Vomiting And Drowsiness, Mental Or Behavioural Changes, Such As Memory Problems Or Changes In Personality, Progressive Weakness Or Paralysis On One Side Of The Body, Vision Problems, Or Speech Problems",
+            "description":"A Brain Tumour Is A Growth Of Cells In The Brain That Multiplies In An Abnormal, Uncontrollable Way. It Can Either Be Cancerous (Malignant) Or Non-Cancerous (Benign)."
+        }
+]

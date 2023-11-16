@@ -1,0 +1,91 @@
+.forumMain{
+    background: linear-gradient(107deg, rgb(13, 198, 180) 8.1%, rgb(33, 198, 138) 79.5%);
+    font-family: sans-serif;
+    font-size: 22px;
+    display: flex;
+    height: 100vh;
+}
+
+.submitForm{
+    background: #efefef;
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    margin: auto;
+    max-width: 800px;
+    min-width: 60vw;
+    border-radius: 30px;
+    height: 60vh;
+}
+.submitForm > textarea{
+    border-radius: 15px;
+    padding-left: 1vw;
+    width:50vw;
+    resize: none;
+}
+
+.submitForm > #postTitle{
+    font-size: 20px;
+    height:30px;
+    margin: 10px;
+    padding-bottom: 20px;
+    overflow:hidden; /* hiding scrollbar. Can probably be done better later to appear only when needed */
+}
+
+.submitForm > #postBody{
+    height:28vh;
+    margin: 10px;
+    font-size: 17px;
+    min-width: 40%;
+    min-height: 20%;
+    max-width: 100%;
+    max-height: 100%;
+    padding-top: 1vh; /* indentation to make text look better */
+}
+
+.submitForm > label{
+    font-size: 20px;
+}
+
+.submitForm > button{
+    width:200px;
+    height:52px;
+    border-radius: 50px;
+    font-size: 16px;
+    font-weight: 600;
+    margin: 20px;
+    cursor: pointer;
+    border: none;
+    background: linear-gradient(107deg, rgb(13, 198, 180) 8.1%, rgb(33, 198, 138) 79.5%);
+    color: white;
+}
+
+.submitForm > button:active{ /* add better on hover later */
+    box-shadow: inset 10px 10px 10px -3px rgba(0, 0, 0, 0.7);
+}
+
+.forumSubmitPopup{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.forumSubmitPopupContent{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #87e687;
+    padding: 1rem;
+    border-radius: 20px;
+}
+
+.forumSubmitPopupContent >br{
+    width: 1vh;
+}

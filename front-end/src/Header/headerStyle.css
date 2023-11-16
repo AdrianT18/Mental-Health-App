@@ -1,0 +1,44 @@
+.container-header{
+    background: linear-gradient(107deg, rgb(13, 198, 180) 8.1%, rgb(33, 198, 138) 79.5%);
+}
+.container-header{
+    display: flex;
+    justify-content: space-around;
+}
+
+.logo, .links,.login-system-land{
+    font-size: 1.4rem;
+    font-family: "Helvetica", sans-serif;
+    padding-top: 1rem;
+}
+
+.links{
+    display: flex;
+    gap: 1rem;
+}
+
+.landing-lbl, .logo,.login-system-land{
+    text-decoration: none;
+    text-align: center;
+    color: white;
+}
+
+.login-system-land{
+    display: flex;
+    gap: 1rem;
+}
+
+.landing-register-label, .landing-login-label{
+    text-decoration: none;
+    text-align: center;
+    color: white;
+}
+.landing-logout-button{
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    background-color: transparent;
+    border: none;
+    font-size: 1.4rem;
+    font-family: "Helvetica", sans-serif;
+}

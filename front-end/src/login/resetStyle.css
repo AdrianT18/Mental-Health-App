@@ -1,0 +1,34 @@
+.password-main{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 90vh;
+    color: white;
+}
+
+.password-title{
+    font-size: 2.4rem;
+    padding-bottom: 6px;
+}
+
+.password-sub{
+    font-size: 1.2rem;
+    font-weight: normal;
+    padding-bottom: 10px;
+}
+
+.password-label{
+    font-size: 1.2rem;
+    font-weight: normal;
+}
+
+.buttonPassword{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.password-link{
+    padding-top: 1rem;
+    color: white;
+}

@@ -1,0 +1,73 @@
+.login-main{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background: linear-gradient(107deg, rgb(13, 198, 180) 8.1%, rgb(33, 198, 138) 79.5%);
+    height: 95vh;
+    color: white;
+}
+
+.login-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.login-title{
+    font-family: "Helvetica", sans-serif;
+    font-size: 2.6rem;
+    margin: 0;
+}
+
+.login-sub{
+    font-family: "Helvetica", sans-serif;
+    font-weight: 500;
+    font-size: 1.5rem;
+    margin: 0;
+}
+
+input[type="text"], [type="password"]{
+    background: transparent;
+    width: 100%;
+    padding: 12px 20px 12px 0px;
+    margin: 8px 0 20px;
+    display: inline-block;
+    border: 2px solid transparent;
+    border-bottom: 2px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.login-input::placeholder {
+    color: white;
+}
+
+.login-input:focus{
+    outline: none;
+}
+
+.confirmBtn, .loginBtn {
+    font-size: 20px;
+    font-family: Arial, serif;
+    border-radius: 8px;
+    border: 0;
+    text-decoration: none;
+    color: black;
+    padding: 14px 40px;
+}
+
+.login-link{
+    text-align: center;
+    color: white;
+    padding-top: 0.5rem;
+}
+
+.login-image{
+    display: flex;
+    align-items: center;
+}
+.tree-image{
+    width: 100%;
+    max-width: 40rem;
+    height: auto;
+}

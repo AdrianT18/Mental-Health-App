@@ -1,0 +1,61 @@
+.landing-body{
+    background: linear-gradient(107deg, rgb(13, 198, 180) 8.1%, rgb(33, 198, 138) 79.5%);
+    height: 100vh;
+}
+.shape-bottom {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.shape-bottom svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 359px;
+    transform: rotateY(180deg);
+}
+
+.shape-bottom .shape-fill {
+    fill: #FFFFFF;
+}
+
+.landing-body{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.landing-title{
+    padding-bottom: 1rem;
+    font-size: 3rem;
+}
+
+.landing-desc{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 30rem;
+    padding-bottom: 10rem;
+    font-size: 1.6rem;
+    font-family: "Helvetica", sans-serif;
+    color: white;
+}
+
+.landing-img{
+    position: relative;
+    padding-top: 5rem;
+    width: 100%;
+    max-width: 55rem;
+    height: 80%;
+}
+
+.landing{
+    padding-bottom: 1rem;
+    font-weight: 700;
+}
+
+

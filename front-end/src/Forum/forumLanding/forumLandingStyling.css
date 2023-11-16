@@ -1,0 +1,159 @@
+.forumLandingMain {
+    background: linear-gradient(107deg, rgb(13, 198, 180) 8.1%, rgb(33, 198, 138) 79.5%);
+    font-family: sans-serif;
+    font-size: 20px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.forumHeader {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    padding-top: 1vh;
+}
+
+.forumLandingHeader {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin-top: 30px;
+    width: 40%;
+    border-bottom: solid;
+    border-color: rgb(19, 185, 169);
+    border-width: 2px;
+    padding-bottom: 5px
+}
+
+.gotoForumSubmitButton {
+    border: none;
+    font-size: inherit;
+    cursor: pointer;
+    padding: 10px 10px;
+    border-radius: 5px;
+    font-weight: 700;
+    transition: all 0.5s;
+}
+
+.gotoForumSubmitButton:hover {
+    background: rgb(219, 219, 219);
+}
+
+.forumLandingMainPosts {
+    display: flex;
+    flex-direction: column;
+    min-height: 70vh;
+    width: 45%;
+}
+
+.forumLandingPosts {
+    display: flex;
+    flex-direction: column;
+    padding: 2.5vh 1vh;
+    border-bottom: solid;
+    border-color: rgba(19, 185, 169);
+    border-width: 2px;
+    width: 45vw;
+    transition: all .2s ease-in-out;
+}
+
+.forumLandingPosts:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 10px 0 rgba(0, 0, 0, 0.2);
+}
+
+.forumLandingPostsTitle {
+    display: flex;
+    font-weight: 700;
+    margin: 4px;
+}
+
+.forumLandingPostsInfo {
+    display: flex;
+    margin: 4px;
+    font-size: 18px;
+    color: rgb(56, 56, 56);
+}
+
+.forumLoadingDiv{
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    margin: auto;
+    height: 20vh;
+}
+.forumPageButtons{
+    display: flex;
+    gap:10px
+}
+
+.incrementPageButton{
+    background-color: #43de0f;
+    line-height: 20px;
+    font-size: 28px;
+    min-width: 4vw;
+    color: black;
+    border: none;
+    padding: 1vh 1vh;
+    text-align: center;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: all 0.3s ease-in-out;
+}
+
+.incrementPageButton:hover {
+    background-color: #45e32e;
+    transform: scale(1.1);
+    color: white;
+}
+
+.incrementPageButton:active {
+    color: black;
+    background-color: #00ff00;
+    transform: translateY(1px);
+    box-shadow: none;
+}
+
+.decrementPageButton {
+    line-height: 20px;
+    font-size: 28px;
+    background-color: #e74c3c;
+    min-width: 4vw;
+    color: black;
+    border: none;
+    padding: 1vh 1vh;
+    text-align: center;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: all 0.3s ease-in-out;
+}
+
+.decrementPageButton:hover {
+    color: white;
+    background-color: #d63031;
+    transform: scale(1.1);
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+    cursor: pointer; /* change the cursor to a pointer on hover */
+}
+
+.decrementPageButton:active {
+    color: black;
+    background-color: #df2c25;
+    transform: translateY(1px);
+    box-shadow: none;
+}
+
+@keyframes press {
+    from {
+        transform: scale(1);
+    }
+    to {
+        transform: scale(1.1);
+    }
+}

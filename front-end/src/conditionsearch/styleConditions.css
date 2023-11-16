@@ -1,0 +1,135 @@
+/* no-default-padding-margin */
+
+/**, *::before, *::after{*/
+/*    box-sizing: border-box;*/
+/*    margin: 0;*/
+/*    padding: 0;*/
+/*}*/
+
+
+/* main-content-area */
+
+.cs-container{
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.cs-title h2{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    padding: 20px 0;
+    text-transform: capitalize;
+}
+
+
+/* serachbox */
+.d-flex{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.searchbox{
+    width: 600px;
+    height: auto;
+    border-radius: 10px;
+    margin: 0 auto;
+    padding: 20px;
+    box-shadow: 0px 8px 11px rgba(0, 0, 0, 0.1); /* card should prominent on hover */;
+}
+.search-area{
+    flex: 70%;
+}
+
+
+/* label */
+label{
+    font-size: 18px;
+    font-weight: bold;
+    display: block;
+    padding-bottom: 8px;
+}
+
+/* form-control class for fields styling */
+
+.cs-form-control{
+    width: 100%;
+    border: 1px solid #898989;
+    padding:10px;
+    border-radius: 8px;
+    font-size: 18px;
+}
+
+.cs-form-control::placeholder{
+    color: #6d6d6d;
+    font-size: 15px;
+}
+.cs-form-control:focus{
+    outline: none;
+}
+datalist option:focus{
+    display: none;
+}
+
+/* search button */
+
+.search-btn button{
+    width: fit-content;
+    background: #245afb;
+    color: #fff;
+    margin-bottom: 0;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+.search-btn button:hover{
+    transform: scale(0.98);
+}
+
+/* list of diseaase */
+.list-of-diseases{
+    margin: 15px 0;
+
+}
+table{
+    width: 100%;
+    
+}
+table, td, th{
+    border: 2px solid ;
+    border-style:double;
+}
+td,th{
+    padding: 10px;
+    text-transform: capitalize;
+    background-color: azure;
+}
+td:first-child{
+    text-align: center;
+}
+td ul{
+    list-style: none;
+    text-transform: capitalize;
+}
+
+.cs-title h1{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    padding: 20px 0;
+    text-transform: capitalize;
+    animation: animation 3s linear infinite;
+}
+@keyframes animation{
+    0%{
+        color:aliceblue;
+    }
+    25%{
+        color:bisque;
+    }
+    50%{
+        color:greenyellow;
+    }
+    100%{
+        color:aliceblue;
+    }
+}
