@@ -3,12 +3,12 @@
 | Student ID | name | Github username | Features contributed to |
 |------------|-----------|----------------|------------------------|
 | 2117197    | Adrian Topolski    | AdrianT18  | Login, Registration, Password Reset and checklist|
-| 2109435        | Logan Card       | 0x978   | Forum Submit, Forum reply, Forum Delete, Forum view post|
-| 2106778        | Daniel Gamboa-Gray     | jum-w  | Forum Submit, Forum reply, Forum Delete, Forum view post|
-| 2134771       | Faisal Karim Shaikat      | faisalkarim202   | Condition Search   |
-| 2160299        | Nassr Khalid Al-Jehani| nassrk90    | Condition Search |
-| 2210987      | Shokhrukh Saipnazarov    | jokki02   | Mood Tracker |
-| 2109689   | Deeda Khan     | DKhan687   | Mood Tracker             |
+|         | Logan        |    | Forum Submit, Forum reply, Forum Delete, Forum view post|
+|         | Daniel      |   | Forum Submit, Forum reply, Forum Delete, Forum view post|
+|        | Faisal        |    | Condition Search   |
+|         | Nassr |     | Condition Search |
+|       | Shokhrukh     |    | Mood Tracker |
+|    | Deeda Khan     |    | Mood Tracker             |
 
 
 As a group we have decided to develop a web application that is focused on helping young adults with mental health problems.
