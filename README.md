@@ -4,11 +4,11 @@
 |------------|-----------|----------------|------------------------|
 | 2117197    | Adrian Topolski    | AdrianT18  | Login, Registration, Password Reset and checklist|
 |         | Logan        |    | Forum Submit, Forum reply, Forum Delete, Forum view post|
-|         | Daniel      |   | Forum Submit, Forum reply, Forum Delete, Forum view post|
+|         | Daniel     |   | Forum Submit, Forum reply, Forum Delete, Forum view post|
 |        | Faisal        |    | Condition Search   |
-|         | Nassr |     | Condition Search |
+|         | Nassr  |     | Condition Search |
 |       | Shokhrukh     |    | Mood Tracker |
-|    | Deeda Khan     |    | Mood Tracker             |
+|    | Deeda      |    | Mood Tracker             |
 
 
 As a group we have decided to develop a web application that is focused on helping young adults with mental health problems.
